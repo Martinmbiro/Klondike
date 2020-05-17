@@ -1,5 +1,3 @@
-import java.util.*
-
 class Deck {
 
     val cards: Array<Card> = Array(52, { Card(it % 13, getSuit(it)) })
