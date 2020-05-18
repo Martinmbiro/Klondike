@@ -40,7 +40,7 @@ class TableauPile(var cards: MutableList<Card> = mutableListOf()) {
         for (i in tappedIndex..cards.lastIndex) {
             cards.removeAt(tappedIndex)
         }
-        
+
         if (cards.size > 0) {
             cards.last().faceUp = true
         }
